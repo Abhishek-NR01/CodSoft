@@ -22,7 +22,6 @@ def password():
     except Exception as err:
         messagebox.showerror('Admin', 'Please enter a valid number')
 
-
 def exit():
     messagebox.showinfo('Admin', 'Thank you for using Password Generator')
     root.destroy()
